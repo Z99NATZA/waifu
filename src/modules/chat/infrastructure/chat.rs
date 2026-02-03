@@ -1,4 +1,6 @@
-use crate::modules::chat::domain::{contract::ChatPort, model::{Conversation, Message}};
+use crate::modules::chat::domain::contract::ChatPort;
+use crate::modules::chat::domain::model::Conversation;
+use crate::modules::chat::domain::model::Message;
 
 pub struct ChatAi;
 

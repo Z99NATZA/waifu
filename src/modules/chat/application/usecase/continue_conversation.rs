@@ -2,11 +2,11 @@ use crate::modules::chat::domain::contract::ChatPort;
 use crate::modules::chat::domain::model::Conversation;
 use crate::modules::chat::domain::model::Message;
 
-pub struct ReplyToConversation<P: ChatPort> {
+pub struct ContinueConversation<P: ChatPort> {
     chat_port: P,
 }
 
-impl<P: ChatPort> ReplyToConversation<P> {
+impl<P: ChatPort> ContinueConversation<P> {
     pub fn new(chat_port: P) -> Self {
         Self { chat_port }
     }
