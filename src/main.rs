@@ -1,3 +1,5 @@
+use waifu::modules::chat::chat_handle;
+
 fn main() {
-    println!("Hello World");
+    chat_handle();
 }
